@@ -1,0 +1,174 @@
+@charset "utf-8";
+/* CSS Document */
+@media (max-width: 600px){ 
+
+  body {
+    background-color: lightblue;
+  }
+
+  #about, 
+  #skill, 
+  #service, 
+  #certificate {
+    width: 100%;
+  }
+
+}
+body{
+	margin: 0;
+	font-family:  Arial, "sans-serif";
+	text-align: center;
+	padding-top: 70px;
+	}
+section{
+  display:none;
+  padding:40px;
+}
+
+#home{
+  display:block;
+	margin: 0;
+}
+marquee{
+	color: green;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	gap: 25px;
+	background-color: cadetblue;
+	padding: 15px 0;
+	z-index: 1000;
+}
+nav a:hover{
+	color:black;
+	background-color: yellow;
+}
+nav a{
+	color: white;
+	text-decoration: none;
+	margin: 20px;
+	font-weight: bold;
+}
+h1{
+	margin-top: 20px;
+	text-transform: capitalize;
+	font-weight: bold;
+	color: deepskyblue;
+	
+}
+p{
+	text-transform: capitalize;
+	font-size: 20px;
+	font-weight: bold;
+	
+}
+ol{
+	color: chocolate;
+	font-size: 25px;
+	font-weight: bold;
+}
+ul{
+	color: darkblue;
+	padding-left: 0;
+	margin-left: 0;
+}
+li{
+	list-style-position: inside;
+	padding-left: 20px;
+	
+}
+#home{
+	padding: 80px;
+	margin: 0;
+	background-color: cornsilk;
+}
+#about{
+	width: 60%;
+	justify-content: center;
+	background-color: aquamarine;
+	margin: auto;
+	padding: 20px;
+}
+#skill{
+	justify-content: center;
+	width: 60%;
+	background-color: azure;
+	margin: auto;
+	padding: 20px;
+}
+#service{
+	justify-content: center;
+	width: 60%;
+	background-color: beige;
+	margin: auto;
+	padding: 20px;
+	
+}
+#certificate{
+	background-color: aquamarine;
+	width: 60%;
+	padding: 20px;
+	border-radius: 50px;
+	margin: 10px auto;
+	
+}
+#contact{
+	background-color: aqua;
+      width: 40%;
+      margin: 50px auto;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px gray;
+    }
+#kenenisa{
+	width: 150px;
+	height: 150px;
+	border-radius: 50px;
+	border: yellow solid;
+}
+
+img{
+	width: 300px;
+	height: auto;
+	border-radius: 10px;
+}
+input, textarea{
+	width: 80%;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 5px;
+}
+button{
+	padding: 20px;
+	background-color: coral;
+	color: cornsilk;
+	cursor: pointer;
+	border-radius: 5px;
+}
+button:hover{
+	background-color: black;
+	color: yellow;
+}
+footer{
+	
+  bottom: 0;
+  left: 0;
+	width: 100%;
+	background-color: black;
+	color: white;
+	font-size: 25px;
+	font-weight: bold;
+	padding: 15px;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+
